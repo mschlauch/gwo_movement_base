@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the GWO-Movement Base feature.
+ */
+
+include_once 'gwo_movement_base.features.inc';
