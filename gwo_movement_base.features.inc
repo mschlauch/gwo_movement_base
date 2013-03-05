@@ -15,6 +15,13 @@ function gwo_movement_base_ctools_plugin_api() {
 }
 
 /**
+ * Implements hook_views_api().
+ */
+function gwo_movement_base_views_api() {
+  return array("api" => "3.0");
+}
+
+/**
  * Implements hook_node_info().
  */
 function gwo_movement_base_node_info() {
